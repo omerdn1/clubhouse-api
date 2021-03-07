@@ -56,6 +56,12 @@ import requestCallAuth from './requestCallAuth.js'
 import block from './block.js'
 import unblock from './unblock.js'
 import refreshToken from './refreshToken';
+import inviteSpeaker from './inviteSpeaker';
+import uninviteSpeaker from './uninviteSpeaker';
+import muteSpeaker from './muteSpeaker';
+import endChannel from './endChannel';
+import makeModerator from './makeModerator';
+import blockFromChannel from './blockFromChannel';
 
 // NOTE: Externals
 import getStatic from './getStatic.js'
@@ -119,5 +125,11 @@ export {
   requestCallAuth,
   block,
   unblock,
-  refreshToken
+  refreshToken,
+  inviteSpeaker,
+  uninviteSpeaker,
+  muteSpeaker,
+  endChannel,
+  makeModerator,
+  blockFromChannel
 }
