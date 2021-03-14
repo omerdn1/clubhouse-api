@@ -12,7 +12,7 @@ const getNotifications = async (profile, opts) => { // NOTE: opts = Number | Obj
   opts = opts || {}
 
   const response = await agent(
-    '/follow',
+    '/get_notifications',
     {
       page_size: opts.size || 20,
       page: opts.page || 1
