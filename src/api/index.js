@@ -62,6 +62,7 @@ import muteSpeaker from './muteSpeaker';
 import endChannel from './endChannel';
 import makeModerator from './makeModerator';
 import blockFromChannel from './blockFromChannel';
+import hideChannel from './hideChannel';
 
 // NOTE: Externals
 import getStatic from './getStatic.js'
@@ -131,5 +132,6 @@ export {
   muteSpeaker,
   endChannel,
   makeModerator,
-  blockFromChannel
+  blockFromChannel,
+  hideChannel
 }
