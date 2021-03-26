@@ -1,6 +1,6 @@
 import agent from '../structures/agent';
 
-const hideChannel = async (profile, channel, hide = true) => {
+const hideChannel = async (profile, channel, hide) => {
   'use strict';
 
   const response = await agent(
