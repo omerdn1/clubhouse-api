@@ -6,11 +6,9 @@ const getChannels = async profile => {
   const response = await agent(
     '/get_channels',
     {
-      body: {}
     },
     {
       ...profile,
-      userId: '(null)'
     }
   )
   const data = await response.json()
